@@ -13,4 +13,4 @@ else
      --redis.log(redis.LOG_NOTICE,'del '..KEYS[1]..' failed')
      return '0';
 end
-return '0'
+

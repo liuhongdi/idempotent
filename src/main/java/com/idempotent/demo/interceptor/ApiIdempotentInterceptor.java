@@ -40,11 +40,6 @@ public class ApiIdempotentInterceptor implements HandlerInterceptor {
         return true;
     }
 
-    /*
-    private void checkApiIdempotent(HttpServletRequest request) {
-
-    }
-    */
 
     @Override
     public void postHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, ModelAndView modelAndView) throws Exception {
